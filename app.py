@@ -113,7 +113,7 @@ st.markdown("""
 
 # 4. قسم بطاقات الأئمة التفاعلية (مرتبة يمناوي)
 st.markdown("<h2>سيرة الأئمة المظلومين في البقيع</h2>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center; color:#777; font-size:1.2rem;'>انقر على اسم الإمام لعرض تفاصيل المظلومية والنبذة الكاملة</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:#777; font-size:1.2rem;'>انقر على اسم الإمام لعرض تفاصيل المظلومية والنبذة المختصرة</p>", unsafe_allow_html=True)
 
 # ترتيب الأئمة يبدأ من اليمين (الحسن، السجاد، الباقر، الصادق)
 c1, c2, c3, c4 = st.columns([1,1,1,1])
